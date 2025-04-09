@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    
+</head>
+<body class="temperature-bg">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Temperature.html">Temperature</a></li>
+        <li><a href="Humidity.html">Humidity</a></li>
+        <li><a href="UV_Index.html">UV Index</a></li>
+        <li><a href="Wind_Speed.html">Wind Speed</a></li>
+    </ul>
+    
+    <h1>Temperature</h1>
+    <div class="weather-container">
+        <i id="temp-icon" class="fa-solid fa-temperature-high"></i>
+        <p id="temperature">--°C</p>
+    </div>
+    <button onclick="toggleTemperature()">Toggle °C/°F</button>
+
+    <script src="/script.js"></script>
+</body>
+</html>
